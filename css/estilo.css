@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*PRODUCTOS DESTACADOS*/
+.red {
+  border-color: red; }
+
+.mb-5:hover {
+  transform: scale(1.1, 1.1); }
+
+/*CUENTA DNI*/
+.cuentadni__img {
+  margin-left: 100px; }
+
+/*SOBRE NOSOTROS*/
+.about__us {
+  margin: 60px 0px 150px 100px; }
+
+.about__us .about__us--parrafo {
+  text-align: justify;
+  margin-top: 30px; }
+
+/*NAV*/
+.nav-item, .fas {
+  margin: 10px; }
+
+/*CONTACTO*/
+.contact-wrapper {
+  padding: 1em; }
+
+.contacto-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.contacto-form form label {
+  display: block; }
+
+.contacto-form form p {
+  margin: 0;
+  padding: 1em; }
+
+.contacto-form form .block {
+  grid-column: 1 / 3; }
+
+.contacto-form form button,
+.contacto-form form input,
+.contacto-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: black;
+  border-bottom: 1px solid #d63031; }
+
+.contacto-form form button {
+  background: #B70E21;
+  color: black;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em; }
+
+.contacto-form form button:hover,
+.contacto-form form button:focus {
+  background: #d63031;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0; }
+
+/* CONTACTO INFO */
+.contacto-info h4, .contacto-info ul, .contacto-info p {
+  text-align: center;
+  margin: 0 0 2rem 0; }
+
+.contacto-info h4 {
+  padding-left: 50px;
+  margin-top: 30px; }
+
+.contacto-info p {
+  font-weight: bold;
+  font-size: 30px; }
+
+.contacto-info li {
+  list-style-type: none;
+  text-align: center; }
+
+.accordion-button {
+  font-weight: bold; }
+
+/*FOOTER*/
+.card-footer {
+  background-color: #dc3545;
+  color: white; }
+
+.card-group {
+  text-align: center; }
+
+h5 {
+  color: black; }
+
+a {
+  color: red; }
+
+/*TITULOS PAGINAS*/
+.page_tittle {
+  font-size: 40px; }
+
+/*BOTON WHATSAPP FLOTANTE*/
+.btn-whatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999; }

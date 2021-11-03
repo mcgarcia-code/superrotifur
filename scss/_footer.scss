@@ -1,0 +1,38 @@
+/*FOOTER*/
+
+@mixin condicion ($color){
+    background-color: ($color);
+
+    @if $color == $danger{
+        color: white;
+    }
+
+    @else if $color == white{
+            color:black;
+        }
+}
+
+.card-footer{
+    @include condicion($danger);
+    
+}
+
+.card-group{
+    text-align: center;
+}
+
+$footer:(
+    h5: black,
+    a: red,
+);
+$h5:map-get($footer, h5);
+$a:map-get($footer, a);
+
+h5{
+    color: $h5;
+}
+
+a{
+    color: $a;
+}
+

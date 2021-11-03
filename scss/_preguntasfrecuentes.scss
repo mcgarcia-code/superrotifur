@@ -1,0 +1,7 @@
+@mixin questions($questionsfont){
+    font-weight: bold;
+}
+
+.accordion-button{
+    @include questions(bold);
+}

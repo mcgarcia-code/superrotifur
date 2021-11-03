@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*PRODUCTOS DESTACADOS*/
+
+@each $color in red{
+    .#{$color}{
+        border-color: $color;
+    }
+}
+
+.mb-5:hover{
+    transform: scale(1.1, 1.1);
+ }
+
+/*CUENTA DNI*/
+
+.cuentadni__img{
+    margin-left: 100px;
+    
+}
+
+/*SOBRE NOSOTROS*/
+
+.about__us{
+    margin: 60px 0px 150px 100px;
+    
+}
+
+.about__us .about__us--parrafo{
+    text-align: justify;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
